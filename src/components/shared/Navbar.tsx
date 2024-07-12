@@ -3,6 +3,7 @@ import MainMenu from "../main-menu";
 import logo from "@/assets/images/Vector.png";
 import ProfileImage from "@/assets/images/Profile Pic.png";
 import MenuItems from "../menu-items";
+import { ModeToggle } from "../dark-mode-toggle";
 
 const Navbar = () => {
   return (
@@ -17,6 +18,7 @@ const Navbar = () => {
 
           <MenuItems />
             </div>
+          <ModeToggle />
           <Image src={ProfileImage} alt="profile" width={40} height={40} />
           <MainMenu />
         </div>
