@@ -4,6 +4,10 @@
 
 This project is a web application developed for a team as part of a job assignment. It aims to cover a greater area for next.js app and typescript skills.
 
+## Live site and video demo link
+See the live site [here](https://job-task-1-flax.vercel.app/)
+See the video demo [here](https://drive.google.com/drive/folders/17xR-tObCVFPsT_yY9Q1ILhxLLoQsif27?usp=sharing)
+
 ## Features
 
 - Feature 1: Next.js with TypeScript (extra feature)
