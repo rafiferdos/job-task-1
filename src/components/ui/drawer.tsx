@@ -51,7 +51,7 @@ const DrawerContent = React.forwardRef<
       <DrawerPrimitive.Content
         ref={ref}
         className={cn(
-          direction=== 'right' ? "fixed z-50 flex h-auto flex-col rounded-tl-[30px] border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950" : "fixed z-50 flex h-auto flex-col rounded-t-[10px] border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950",
+          direction=== 'right' ? "fixed z-50 flex h-auto flex-col rounded-l-[30px] border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950" : "fixed z-50 flex h-auto flex-col rounded-t-[10px] border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950",
           (!direction || direction === "bottom") && "mt-24 inset-x-0 bottom-0",
           direction === "right" && "top-0 right-0 w-screen max-w-80 h-full",
           className

@@ -3,6 +3,7 @@
 import { useMediaQuery } from "@/hooks/use-media-query";
 import { Drawer, DrawerContent, DrawerTrigger } from "./ui/drawer";
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
+import MenuItems from "./menu-items";
 
 const MainMenu = () => {
   const isDesktop = useMediaQuery("(min-width: 768px)");
@@ -17,7 +18,7 @@ const MainMenu = () => {
             <HamburgerMenuIcon />
         </DrawerTrigger>
         <DrawerContent>
-
+        <MenuItems />
         </DrawerContent>
     </Drawer>
   </div>
