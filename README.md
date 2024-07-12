@@ -6,8 +6,8 @@ This project is a web application developed for a team as part of a job assignme
 
 ## Features
 
-- Feature 1: Next.js with TypeScript
-- Feature 2: shadcn dark ui with toggle on system theme
+- Feature 1: Next.js with TypeScript (extra feature)
+- Feature 2: shadcn dark ui with toggle on system theme (extra feature)
 - Feature 3: Custom hooks for theme and toasts
 
 ## Installation
