@@ -7,7 +7,7 @@ import MenuItems from "../menu-items";
 const Navbar = () => {
   return (
     <div className="flex h-20 w-full shrink-0 justify-end items-center px-4 md:px-6">
-      <div className="w-11/12 max-w-7xl flex justify-between container mx-auto">
+      <div className="w-11/12 max-w-7xl flex justify-between mx-auto">
         <div className="flex gap-4 items-center">
           <Image src={logo} alt="logo" width={30} height={30} />
           <p className="font-bold">Logoipsum</p>
