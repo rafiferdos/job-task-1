@@ -29,8 +29,8 @@ const Content = () => {
             odio dolores?
           </p>
         </div>
-        <div className="flex justify-between items-center">
-          <div className="flex items-center justify-start gap-1 *:text-blue-500 py-4">
+        <div className="flex justify-between items-center flex-col md:flex-row">
+          <div className="flex items-center justify-start *:text-xs md:text-base gap-1 *:text-blue-500 py-4">
             <div className="py-1 px-2 rounded-full bg-slate-200 dark:bg-slate-800">
               <p>#photography</p>
             </div>
@@ -78,8 +78,8 @@ const Content = () => {
             odio dolores?
           </p>
         </div>
-        <div className="flex justify-between items-center">
-          <div className="flex items-center justify-start gap-1 *:text-blue-500 py-4">
+        <div className="flex justify-between items-center flex-col md:flex-row">
+          <div className="flex items-center justify-start *:text-xs md:text-base gap-1 *:text-blue-500 py-4">
             <div className="py-1 px-2 rounded-full bg-slate-200 dark:bg-slate-800">
               <p>#photography</p>
             </div>

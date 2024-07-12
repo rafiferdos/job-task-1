@@ -9,12 +9,12 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <div className="flex-col gap-12 flex md:flex-row max-w-7xl container mx-auto bg-slate-100 dark:bg-slate-800">
+      <div className="flex-col-reverse gap-12 flex md:flex-row max-w-7xl container mx-auto bg-slate-100 dark:bg-slate-800">
         <div className="md:w-1/2">
 
         <Content />
         </div>
-        <div className="flex md:flex-col flex-row md:w-1/2">
+        <div className="flex md:flex-col flex-col md:w-1/2">
           <PhotoGallery />
           <VideoGallery />
         </div>

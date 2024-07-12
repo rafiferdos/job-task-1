@@ -11,10 +11,10 @@ const PhotoGallery = () => {
       <h1 className="text-2xl font-extrabold mb-2">Photos</h1>
       <div className="flex flex-col w-fit">
         <div className="grid grid-cols-2 grid-rows-2 w-fit rounded-3xl overflow-hidden">
-          <Image src={img1} alt="img1" width={200} height={200} />
-          <Image src={img2} alt="img2" width={200} height={200} />
-          <Image src={img3} alt="img3" width={200} height={200} />
-          <Image src={img4} alt="img4" width={200} height={200} />
+          <Image src={img1} alt="img1" width={300} height={300} />
+          <Image src={img2} alt="img2" width={300} height={300} />
+          <Image src={img3} alt="img3" width={300} height={300} />
+          <Image src={img4} alt="img4" width={300} height={300} />
         </div>
         <div className="flex justify-end">
           <Button className="text-blue-600" variant="ghost">
