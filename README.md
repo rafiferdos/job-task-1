@@ -13,6 +13,7 @@ See the video demo [here](https://drive.google.com/drive/folders/17xR-tObCVFPsT_
 - Feature 1: Next.js with TypeScript (extra feature)
 - Feature 2: shadcn dark ui with toggle on system theme (extra feature)
 - Feature 3: Custom hooks for theme and toasts
+- Feature 4: Full responsive design
 
 ## Installation
 
