@@ -5,7 +5,7 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { GiConsoleController } from "react-icons/gi";
 const UserDetails = () => {
   return (
-    <div className="flex items-start gap-2 md:gap-8 lg:w-1/2 mx-auto p-2 md:p-8 justify-center">
+    <div className="flex items-start gap-2 md:gap-8 w-11/12 max-w-7xl mx-auto p-2 md:p-8 justify-center bg-slate-100 dark:bg-slate-800">
       <Image
         src={profilePic}
         className="-mt-12 md:-mt-24 w-20 md:w-44"
