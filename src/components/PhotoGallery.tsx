@@ -7,7 +7,7 @@ import { Button } from "./ui/button";
 
 const PhotoGallery = () => {
   return (
-    <div>
+    <div className="flex flex-col items-center justify-center mt-8 md:-mt-7">
       <h1 className="text-2xl font-extrabold mb-2">Photos</h1>
       <div className="flex flex-col w-fit">
         <div className="grid grid-cols-2 grid-rows-2 w-fit rounded-3xl overflow-hidden">

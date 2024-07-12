@@ -2,10 +2,10 @@ import { Button } from "./ui/button";
 
 const VideoGallery = () => {
   return (
-    <div>
+    <div className="my-7 flex items-center justify-center flex-col">
       <h1 className="text-2xl font-extrabold mb-2">Videos</h1>
       <div className="flex flex-col w-fit gap-2">
-          <video className="rounded-xl" width="600" controls>
+          <video className="rounded-xl w-full" controls>
             <source src="https://videos.pexels.com/video-files/857134/857134-hd_1280_720_24fps.mp4" type="video/mp4" />
           </video>
         <div className="grid lg:grid-cols-3 grid-rows-1 gap-2 w-fit rounded-3xl overflow-hidden">

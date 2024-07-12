@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="w-full overflow-hidden md:h-[550px]">
         <Image src={bg} className="w-full h-full" objectFit="contain" alt="bg" />
       </div>
-      <div className="w-full">
+      <div className="xl:w-11/12 w-full max-w-7xl container mx-auto bg-slate-100 dark:bg-slate-800">
         <UserDetails />
       </div>
     </div>
