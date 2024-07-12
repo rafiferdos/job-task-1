@@ -2,7 +2,7 @@ import { Button } from "./ui/button";
 
 const Content = () => {
   return (
-    <div>
+    <div className="mb-10 lg:mb-0">
       <div className="p-5 bg-slate-200 dark:bg-slate-900 rounded-xl">
         <div className="h-40 overflow-y-scroll">
           <h2 className="text-xl md:text-2xl font-extrabold my-3">
@@ -30,17 +30,17 @@ const Content = () => {
           </p>
         </div>
         <div className="flex justify-between items-center flex-col md:flex-row">
-          <div className="flex items-center justify-start *:text-xs md:text-base gap-1 *:text-blue-500 py-4">
-            <div className="py-1 px-2 rounded-full bg-slate-200 dark:bg-slate-800">
+          <div className="flex items-center justify-start *:text-xs md:text-base gap-1 *:text-blue-500 py-4 overflow-x-auto w-full">
+            <div className="py-1 px-2 rounded-full bg-slate-100 dark:bg-slate-800">
               <p>#photography</p>
             </div>
-            <div className="py-1 px-2 rounded-full bg-slate-200 dark:bg-slate-800">
+            <div className="py-1 px-2 rounded-full bg-slate-100 dark:bg-slate-800">
               <p>#astronomy</p>
             </div>
-            <div className="py-1 px-2 rounded-full bg-slate-200 dark:bg-slate-800">
+            <div className="py-1 px-2 rounded-full bg-slate-100 dark:bg-slate-800">
               <p>#astrography</p>
             </div>
-            <div className="p-1 rounded-full bg-slate-200 dark:bg-slate-800">
+            <div className="p-1 rounded-full bg-slate-100 dark:bg-slate-800">
               <p>+</p>
             </div>
           </div>
@@ -79,17 +79,17 @@ const Content = () => {
           </p>
         </div>
         <div className="flex justify-between items-center flex-col md:flex-row">
-          <div className="flex items-center justify-start *:text-xs md:text-base gap-1 *:text-blue-500 py-4">
-            <div className="py-1 px-2 rounded-full bg-slate-200 dark:bg-slate-800">
+          <div className="flex items-center justify-start *:text-xs md:text-base gap-1 *:text-blue-500 py-4 overflow-x-auto w-full">
+            <div className="py-1 px-2 rounded-full bg-slate-100 dark:bg-slate-800">
               <p>#photography</p>
             </div>
-            <div className="py-1 px-2 rounded-full bg-slate-200 dark:bg-slate-800">
+            <div className="py-1 px-2 rounded-full bg-slate-100 dark:bg-slate-800">
               <p>#astronomy</p>
             </div>
-            <div className="py-1 px-2 rounded-full bg-slate-200 dark:bg-slate-800">
+            <div className="py-1 px-2 rounded-full bg-slate-100 dark:bg-slate-800">
               <p>#astrography</p>
             </div>
-            <div className="p-1 rounded-full bg-slate-200 dark:bg-slate-800">
+            <div className="p-1 rounded-full bg-slate-100 dark:bg-slate-800">
               <p>+</p>
             </div>
           </div>
